@@ -26,5 +26,12 @@ namespace Ideas.Controllers
 
             return View();
         }
+
+        public ActionResult Ideas()
+        {
+            ViewBag.Message = "Data storage of any interesting ideas";
+
+            return View();
+        }
     }
 }
