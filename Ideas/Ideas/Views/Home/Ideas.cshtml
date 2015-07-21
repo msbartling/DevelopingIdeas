@@ -2,9 +2,38 @@
     ViewBag.Title = "Ideas";
 }
 
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<!--Scripts.Render("~/Content/themes/base/css")-->
 
-<p>Same as About. All ideas will go here. MVC practice and development.</p>
+@section Scripts {
+<script type="text/javascript">
+    $(function () {
+        $("#accordion").accordion();
+    });
+</script>
+}
 
+<h1>@ViewBag.Title.</h1>
+<h2>@ViewBag.Message</h2>
+
+
+
+<div id="accordion">
+    <h3><a href="#">Welcome</a></h3>
+    <div>
+        <p>Welcome to my ideas test site. All ideas will go here. MVC practice and development process.</p>
+    </div>
+    <h3><a href="#">Interests</a></h3>
+    <div>
+        <p>I am very interested in software development as well as anything that allows you to express your creativity. My major</br>
+           interests are in Web and Android development.  I am currently focusing on researching web development and getting </br>
+           a better grasp of it.
+        </p>
+    </div>
+    <h3><a href="#">Education</a></h3>
+    <div>
+        <p>I am a Florida State University student graduating August 2015 with a double major in Computer Science and Studio Art. <br />
+           I look forward to anything that involves learning and making my brain tick.
+        </p>
+    </div>
+</div>
 
