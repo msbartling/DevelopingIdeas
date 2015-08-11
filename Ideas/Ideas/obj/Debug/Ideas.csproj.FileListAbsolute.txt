@@ -108,3 +108,7 @@ C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\bin\Microsoft.Owin.Security
 C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\obj\Debug\Ideas.csprojResolveAssemblyReference.cache
 C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\obj\Debug\Ideas.dll
 C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\obj\Debug\Ideas.pdb
+C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Matthew\Desktop\DevelopingIdeas\Ideas\Ideas\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

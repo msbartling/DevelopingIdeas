@@ -33,5 +33,12 @@ namespace Ideas.Controllers
 
             return View();
         }
+
+        public ActionResult Chat()
+        {
+            ViewBag.Message = "Signal R Practice!";
+
+            return View();
+        }
     }
 }
